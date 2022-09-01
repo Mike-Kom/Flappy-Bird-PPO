@@ -74,7 +74,7 @@ class Runner:
             if self.length > 24:
                 reward = 2
             else:
-                reward = 0
+                reward = 0.025
 
         while time.time() - t1 < 0.04:
             pass
